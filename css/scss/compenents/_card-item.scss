@@ -1,0 +1,54 @@
+.boxs {
+    .owl-theme .owl-dots {
+        display: none;
+    }
+    .img {
+        width: 100%;
+        margin-bottom: 10px;
+        img {
+            width: 100%;
+        }
+    }
+    .title {
+        color: $grayColor;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .teacher-name {
+        font-size: 13px;
+        color: $secGrayColor;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        display: block;;
+    }
+    .rating {
+        .rating-number {
+            color: $secRedColor;
+            font-size: 14px;
+        }
+        .stars {
+            color: $orangeColor;
+            i {
+                font-size: 14px;
+            }
+        }
+        .view {
+            color: $secGrayColor;
+            font-size: 12px;
+        }
+    }
+    .prices {
+        margin-top: 10px;
+        .main-cost {
+            color: $grayColor;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        .old-cost {
+            color: $secGrayColor;
+            font-size: 14px;
+            text-decoration: line-through;
+        }
+    }
+}

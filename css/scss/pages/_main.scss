@@ -1,0 +1,191 @@
+/*  Start Background Offer   */
+.background-offer {
+    .window-offer {
+        width: 450px;
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        background-color: #FFF;
+        padding: 20px;
+        color: $grayColor;
+        .title {
+            font-size: $fontSize + 29;
+            @media #{$maxEightHund} {
+                font-size: $fontSize + 4;
+            }
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        @media #{$maxEightHund} {
+            top: 38px; 
+            width: 300px;
+        }
+    }
+}
+/*  End Background Offer   */
+
+/*   Start Watch My Courses   */
+.watch-my-courses {
+    .owl-theme .owl-dots {
+        display: none;
+    }
+    .top-section {
+        .name {
+            color: $grayColor;
+        }
+        .my-courses-link {
+            color: $blueColor;
+        }
+    }
+    .boxs {
+        .owl-carousel .owl-item {
+            .item {
+                height: 150px;
+                border: 1px solid #dcdacb;
+                box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+                overflow: hidden;
+                .img {
+                    flex-basis: 30%;
+                    max-width: 30%;
+                    img {
+                        height: 150px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+                .info {
+                    padding: 10px;
+                    color: $grayColor;
+                    flex-basis: 70%;
+                    max-width: 70%;
+                    height: 155px;
+                    .top {
+                        .title {
+                            font-weight: bold;
+                            font-size: $fontSize - 1;
+                            margin-bottom: 5px;
+                        }
+                        .dec {
+                            font-size: $fontSize - 3;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                        }
+                    }
+                    .bottom {
+                        position: absolute;
+                        bottom: 10px;
+                        left: 10px;
+                        p {
+                            font-size: 12px;
+                            font-weight: normal;
+                            color: $secGrayColor;
+                            span {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+/*   End Watch My Courses   */
+
+/*  Start Training  */
+.training {
+    border: 1px solid $secBlack;
+    background-color: $secBlack;
+    background: url('https://udemy-images.udemy.com/browse_components/shared-assets/purple-intersect.svg') repeat-x #003640;
+    padding: 25px 20px;
+    .buttons {
+        .get-udemy {
+            padding: 10px 15px;
+            background-color: #0f7c90;
+            border: 0;
+            @media (max-width: 400px) {
+                margin-bottom: 10px;
+            }
+        }
+        .dismiss {
+            padding: 10px 15px;
+            border: 0;
+            background-color: transparent;
+            border: 1px solid #FFF;
+        }
+    }
+}
+/*  End Training  */
+
+/*  Start Topics    */
+.topicss {
+    .title {
+        color: $grayColor;
+        font-weight: bold;
+    }
+    .owl-theme .owl-dots {
+        display: none;
+    }
+    .owl-carousel {
+        .item {
+            line-height: 56px;
+            padding-top: 5px;
+            display: block;
+            margin-bottom: 5px;
+            a {
+                display: block;
+                height: 56px;
+                border: 1px solid $hrLineColor;
+                color: $blueColor;
+                font-weight: bold;
+            }
+            .top {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+/*  End Topics    */
+
+/*  Start Algorithms    */
+.algorithms {
+    .title-name-head {
+        color: $grayColor;
+        font-weight: bold;
+    }
+    .top-text {
+        border-bottom: 1px solid $hrLineColor;
+        margin-bottom: 20px;
+        li {
+            color: $secGrayColor;
+            font-weight: bold;
+            cursor: pointer;
+            margin-right: 15px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid transparent;
+            &.active {
+                color: $grayColor;
+                border-bottom: 2px solid $grayColor;
+                @media (max-width: 450px) {
+                    border-bottom: 0
+                }
+            }
+        }
+    }
+    .boxs {
+        & > div {
+            display: none;
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
+/*  End Algorithms    */
+
+/*  Start Owl Carousel */
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+/*  End Owl Carousel */

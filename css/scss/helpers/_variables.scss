@@ -1,0 +1,27 @@
+$fontName: 'Poppins', sans-serif;
+$fontSize: 16px;
+// Color
+$blackColor: #191917;
+$grayColor: #3C3B37;
+$secGrayColor: #73726c;
+$redColor: #ec5252;
+$hrLineColor: #dcdacb;
+$greenColor: #008bbf;
+$primaryColor: #007bff;
+$whiteColor: #FFF;
+$secBlack: #1e1e1c;
+$secRedColor: #be5a0e;
+$orangeColor: #eb8a2f;
+$blueColor: #0f7c90;
+
+// Text Align
+$textLeft: left;
+$textRight: right;
+
+// Media Query
+$maxEightHund: '(max-width: 800px)';
+$minEightHund: '(min-width: 800px)';
+$minMedium: '(min-width: 768px)';
+$maxMedium: '(max-width: 768px)';
+$minLarge: '(min-width: 992px)';
+$maxMobile: '(max-width: 380px)';

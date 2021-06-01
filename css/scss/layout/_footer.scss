@@ -1,0 +1,76 @@
+/*      Start Footer    */
+footer {
+    .top-section {
+        border-top: 1px solid $hrLineColor;
+        border-bottom: 1px solid $hrLineColor;
+        .text {
+            color: $grayColor;
+            font-size: $fontSize + 2px;
+            font-weight: bold;
+        }
+    }
+    .bottom-footer {
+        a {
+            font-size: 14px;
+        }
+        .column-4 {
+            .select {
+                padding: 10px;
+                width: 240px;
+                height: 40px;
+                border: 1px solid $secGrayColor;
+                .fa-globe {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 10px;
+                    z-index: 1;
+                    font-size: 20px;
+                    color: $secGrayColor;
+                }
+                select {
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: transparent;
+                    z-index: 2;
+                    appearance: none;
+                    padding-left: 50px;
+                    color: $grayColor;
+                    &:focus {
+                        outline: 1px solid #007bff;
+                        // border: 10px solid #f00;
+                    }
+                    option {
+                        color: $grayColor;
+                        width: 100%;
+                    }
+                }
+                .fa-chevron-up {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 10px;
+                    z-index: 1;
+                    font-size: 20px;
+                    color: $secGrayColor;
+                }
+            }   
+        }
+    }
+    .copyright {
+        margin-top: 40px;
+        .img-logo {
+            width: 40px;
+            img {
+                width: 100%;
+            }
+        }
+        .text {
+            color: $secGrayColor;
+            font-size: 14px;
+        }
+    }
+}
+/*      End Footer    */
